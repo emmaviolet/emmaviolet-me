@@ -61,11 +61,6 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
-			<section class="intro">
-				<p>
-					I'm Emma. I like problems, and the ones people tend to bring me are usually about understanding what's really behind a decision or a behaviour that's confusing them. I've come to believe you can't do that well without building a true picture of how the world actually works, which is most of what I spend my time thinking about, especially the parts that touch the developer community and open source, which I think is about the most important thing ever.
-				</p>
-			</section>
 			<ul class="posts">
 				{
 					posts.map((post) => (
