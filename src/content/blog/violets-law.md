@@ -1,5 +1,5 @@
 ---
-title: "The flamegraph was never the hard part"
+title: "Performance is a people problem"
 description: "Profiling tells you where the time goes. Deciding whose time was worth saving is the part with no graph and no right answer."
 pubDate: "2026-06-25"
 ---
