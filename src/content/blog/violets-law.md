@@ -4,6 +4,8 @@ description: "Profiling tells you where the time goes. Deciding whose time was w
 pubDate: "2026-06-25"
 ---
 
+Based on a talk I gave with Elena Tanasoiu at Brighton RubyConf in June 2026.
+
 Last week my team shipped a small thing: a dropdown in the repository header that lets you jump straight to another repo, instead of trailing back to your dashboard and starting again. It is a good small thing, done well, and people noticed, which they almost never do. One called it the best thing GitHub had shipped in three years. Another wrote, simply, "you legend we love you so much". A third could not believe he was praising GitHub, and did it anyway, on the grounds that good design is usually just the obvious thing finally done. I am proud of it, and the love is deserved.
 
 It also shipped in roughly the time it takes to read this paragraph, with no argument from anyone, because the moment you saw it you could see the point of it. Performance work is much harder to justify, which is what I am on a stage about this week, next to Elena, who can open a flamegraph of the pull request page, a dense picture of where every millisecond goes, and find the slow one before you have finished sitting down. That is a real and difficult skill, and it is the part of performance work the field has mastered. What the graph cannot tell her, or me, is which of those milliseconds anyone would have paid to keep. It answers its own question perfectly and stays silent on the only one that decides anything.
